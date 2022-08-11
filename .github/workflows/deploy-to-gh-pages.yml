@@ -17,6 +17,7 @@ jobs:
         run: |
           npm i --ignore-scripts
           npm run build
+          cp dist/index.html dist/404.html
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

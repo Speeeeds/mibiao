@@ -1,4 +1,26 @@
-@import "./base.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Roboto Black";
+  src: url("./Roboto-Black.ttf") format("trueType");
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+
+  background-image: url(./background.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 80vh;
+  background-color: #bc0000;
+
+  color: white;
+
+  font-family: "Roboto Black", sans-serif;
+}
 
 #app {
   max-width: 1280px;
@@ -8,28 +30,14 @@
   font-weight: normal;
 }
 
-a,
-.green {
+a {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+a:hover {
+  color: #E14444;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+a:visited {
+  color: #5C1C1C;
 }
