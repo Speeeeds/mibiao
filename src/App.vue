@@ -3,23 +3,43 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-  <header class="mb-4">
-    <h1 class="text-9xl">THE BIG TOYS</h1>
-    <h1 class="text-8xl">COMPANY</h1>
-  </header>
+  <RouterLink to="/">
+    <header class="mb-4 font-black">
+      <h1 class="text-4xl">THE</h1>
+      <h1 class="text-8xl">BIG TOYS</h1>
+      <h1 class="text-6xl">COMPANY</h1>
+    </header>
+  </RouterLink>
 
   <main>
     <RouterView />
   </main>
 
   <footer>
-    <p class="text-4xl">Big toys for big boys.</p>
-    <p class="mt-2"><img class="h-20" src="@/assets/logo.png" /></p>
+    <p class="text-4xl">{{ $t('ui.vision') }}</p>
+    <button class="mt-6 text-4xl font-black color-black border-4 p-4 rounded-xl">{{ $t('ui.get_in_touch')
+    }}</button>
+    <div class="mt-10 border-t-4 pt-4 border-white">
+      <p class="text-2xl">
+        Big toys for big boys.
+        <img class="inline-block h-10" src="@/assets/logo.png" />
+        2022
+      </p>
+    </div>
   </footer>
 </template>
 
 <style scoped>
 main {
   min-height: calc(100vh - 30rem);
+}
+
+button {
+  background-color: #DB000099;
+  border-color: #E14444;
+}
+
+button:hover {
+  background-color: #E14444;
 }
 </style>

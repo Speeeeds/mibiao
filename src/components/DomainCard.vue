@@ -13,8 +13,8 @@ defineProps<{
       <div class="align-middle" v-else>{{ domain.domain[0].toUpperCase() }}</div>
     </div>
     <div>
-      <p class="domain">{{ domain.domain }}</p>
-      <p class="description">{{ domain.description }}</p>
+      <p class="domain font-black">{{ domain.domain }}</p>
+      <p class="description font-thin">{{ domain.description }}</p>
     </div>
   </div>
 </template>

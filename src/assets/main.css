@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Roboto Black";
-  src: url("./Roboto-Black.ttf") format("trueType");
-}
-
 body {
   min-height: 100vh;
   min-width: 100vw;
@@ -18,26 +13,15 @@ body {
   background-color: #bc0000;
 
   color: white;
-
-  font-family: "Roboto Black", sans-serif;
+  font-family: "Roboto", "Ma Shan Zheng", arial, sans-serif;
 }
 
 #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-
-  font-weight: normal;
 }
 
 a {
   text-decoration: none;
-}
-
-a:hover {
-  color: #E14444;
-}
-
-a:visited {
-  color: #5C1C1C;
 }
