@@ -17,7 +17,7 @@ defineProps<{
     <div class="overflow-hidden">
       <p class="domain font-black text-xl text-ellipsis overflow-hidden">{{ domain.domain }}</p>
       <p class="description font-thin text-ellipsis overflow-hidden">{{ $t('description.' +
-          domain.domain.replace('.', '_'))
+          domain.domain.replaceAll('.', '_'))
       }}
       </p>
     </div>
@@ -33,6 +33,14 @@ defineProps<{
   margin: 1rem;
   width: 14rem;
   border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: .5rem;
+    margin: unset;
+    width: 11rem;
+  }
 }
 
 .card>div {

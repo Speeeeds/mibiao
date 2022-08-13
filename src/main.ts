@@ -8,6 +8,10 @@ import locales from "./locales";
 
 import "./assets/main.css";
 
+if (!String.prototype.replaceAll) {
+    String.prototype.replaceAll = (s: string) => s.split('.').join('_')
+}
+
 const app = createApp(App);
 
 const i18n = createI18n({

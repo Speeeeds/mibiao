@@ -8,7 +8,7 @@ const { domains } = storeToRefs(useAssetsStore())
 </script>
 
 <template>
-  <div class="grid grid-cols-5 gap-0 w-fit mt-10 mb-10">
+  <div class="grid grid-cols-2 md:grid-cols-5 gap-2 md:gap-0 w-fit mt-10 mb-10">
     <RouterLink v-for="d in domains" :to="'/assets/' + d.domain">
       <DomainCard :domain="d" />
     </RouterLink>
