@@ -1,25 +1,35 @@
 <script setup lang="ts">
 import { useAssetsStore, type Domain } from '@/stores/assets'
 import { storeToRefs } from 'pinia'
-import { onBeforeMount, ref, type Ref } from 'vue';
+import FontAvatar from '@/components/FontAvatar.vue';
+import { useRoute } from "vue-router";
 
 const { domains } = storeToRefs(useAssetsStore())
+const route = useRoute()
 
-const domain: Ref<Domain | undefined> = ref(undefined);
-// domain.value = domains.value.find((d: Domain) => d.domain === route.params.domain);
+const domain = domains.value.find((d: Domain) => d.domain === route.params.domain);
+if (!domain) {
+  window.location.href = '/'
+}
 </script>
 
 <template>
-  <div class="asset max-w-xl m-auto flex items-center	justify-center">
-    <div class="border-4 p-6 border-white rounded-xl">
-      <p class="text-4xl font-black text-white">The domain name</p>
-      <p class="text-9xl font-black">
-        {{ domain?.domain }}
+  <div class="asset m-auto flex items-center justify-center mb-20 mt-20">
+    <div class="border-4 p-6 border-white rounded-xl" style="min-width: 40rem;">
+      <p class="text-4xl font-black text-white">{{ $t('ui.the_domain_name') }}</p>
+      <p class="text-9xl font-black text-center mt-1 mb-1">
+        {{ domain!.domain }}
       </p>
-      <p class="text-4xl text-right font-black text-white">is owned by naiba</p>
-      <div>
-        <img v-if="domain?.image" :src="domain.image" :alt="domain.domain + ' - ' + domain.description" />
-        <div class="align-middle" v-else>{{ domain?.domain[0].toUpperCase() }}</div>
+      <p class="text-4xl text-right font-black text-white">{{ $t('ui.owned_by') }}</p>
+      <div class="flex border-t-2 border-dashed mt-6 pt-6">
+        <div>
+          <img style="width: 10rem;height: 10rem;border-radius: 1rem;" v-if="domain!.image" :src="domain!.image"
+            :alt="domain!.domain" />
+          <FontAvatar :size="10" :word="domain!.domain[0]" v-else />
+        </div>
+        <div class="ml-6 text-3xl font-black self-center">
+          {{ $t('description.' + domain!.domain.replace('.', '_')) }}
+        </div>
       </div>
     </div>
   </div>

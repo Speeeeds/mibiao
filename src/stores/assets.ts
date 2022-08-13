@@ -1,9 +1,9 @@
 import { defineStore } from "pinia";
-import logo from '@/assets/logo.png';
+import qiong from '@/assets/qio.ng.gif';
+import qundao from '@/assets/qundao.png';
 
 export interface Domain {
   domain: string;
-  description: string;
   image: string | undefined;
 }
 
@@ -12,27 +12,69 @@ export const useAssetsStore = defineStore({
   state: () => ({
     domains: [
       {
-        domain: 'test.com',
-        description: 'Test',
-        image: logo,
+        domain: 'nb2.com',
       },
       {
-        domain: 'example.com',
-        description: 'Example',
-        image: logo,
+        domain: 'nai.ba',
       },
       {
-        domain: 'example2.com',
-        description: 'Example2',
-        image: logo,
+        domain: 'boringproduction.com',
       },
       {
-        domain: 'C.example.com',
-        description: 'Example2',
+        domain: 'crew.cm',
       },
       {
-        domain: 'B.example.com',
-        description: 'Example2',
+        domain: 'gg0.com',
+      },
+      {
+        domain: 'git.cm',
+      },
+      {
+        domain: 'gk4.com',
+      },
+      {
+        domain: 'jf4.com',
+      },
+      {
+        domain: 'jg0.com',
+      },
+      {
+        domain: 'jh4.com',
+      },
+      {
+        domain: 'jn4.com',
+      },
+      {
+        domain: 'lajilao.com',
+      },
+      {
+        domain: 'oh1.com',
+      },
+      {
+        domain: 'p14yground.com',
+      },
+      {
+        domain: 'pi4.com',
+      },
+      {
+        domain: 'qio.ng',
+        image: qiong
+      },
+      {
+        domain: 'thebigpicture.cn'
+      },
+      {
+        domain: 'qundao.com',
+        image: qundao
+      },
+      {
+        domain: 'solitud.es',
+      },
+      {
+        domain: '5.nu',
+      },
+      {
+        domain: 'xzg.com.cn',
       }
     ] as Domain[],
   }),

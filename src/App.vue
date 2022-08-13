@@ -1,5 +1,16 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from "vue-router";
+import { RouterLink, RouterView, useRoute } from "vue-router";
+import VerifyModal from "@/components/VerifyModal.vue";
+import { ref } from "vue";
+
+const verifying = ref(false);
+const verified = ref(false);
+const route = useRoute();
+
+function onVerifyFinish(success: boolean) {
+  verifying.value = false;
+  verified.value = success;
+}
 </script>
 
 <template>
@@ -15,15 +26,18 @@ import { RouterLink, RouterView } from "vue-router";
     <RouterView />
   </main>
 
+  <VerifyModal :show="verifying" @finish="onVerifyFinish" />
+
   <footer>
     <p class="text-4xl">{{ $t('ui.vision') }}</p>
-    <button class="mt-6 text-4xl font-black color-black border-4 p-4 rounded-xl">{{ $t('ui.get_in_touch')
-    }}</button>
+    <button @click="verified ? undefined : verifying = true"
+      class="mt-6 text-4xl font-black color-black border-4 p-4 rounded-xl">
+      {{ verified ? 'Email: hi+' + (route.params.domain ?? 'bigtoyscompany.com') + '@nai.ba' : $t('ui.get_in_touch') }}
+    </button>
     <div class="mt-10 border-t-4 pt-4 border-white">
       <p class="text-2xl">
-        Big toys for big boys.
         <img class="inline-block h-10" src="@/assets/logo.png" />
-        2022
+        2022 &copy; Big toys for big boys.
       </p>
     </div>
   </footer>
