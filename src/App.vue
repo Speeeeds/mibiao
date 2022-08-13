@@ -11,6 +11,9 @@ function onVerifyFinish(success: boolean) {
   verifying.value = false;
   verified.value = success;
 }
+function sendMail() {
+  window.location.href = 'mailto:hi@nai.ba'
+}
 </script>
 
 <template>
@@ -30,7 +33,7 @@ function onVerifyFinish(success: boolean) {
 
   <footer>
     <p class="text-xl md:text-4xl">{{ $t('ui.vision') }}</p>
-    <button @click="verified ? undefined : verifying = true"
+    <button @click="verified ? sendMail() : verifying = true"
       class="mt-6 text-xl md:text-4xl font-black color-black border-4 p-4 rounded-xl">
       {{ verified ? 'Email: hi+' + (route.params.domain ?? 'bigtoyscompany.com') + '@nai.ba' : $t('ui.get_in_touch') }}
     </button>
