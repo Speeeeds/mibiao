@@ -14,7 +14,7 @@ if (!domain) {
 </script>
 
 <template>
-  <div class="asset m-auto flex items-center justify-center mb-20 mt-20">
+  <div class="asset m-auto flex items-center justify-center md:mb-20 md:mt-20">
     <div class="asset-domain border-4 p-6 border-white rounded-xl">
       <p class="text-3xl md:text-4xl font-black text-white">{{ $t('ui.the_domain_name') }}</p>
       <p class="text-5xl md:text-8xl xl:text-9xl font-black text-center mt-1 mb-1">
