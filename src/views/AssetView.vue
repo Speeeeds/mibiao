@@ -3,11 +3,12 @@ import { useAssetsStore, type Domain } from '@/stores/assets'
 import { storeToRefs } from 'pinia'
 import FontAvatar from '@/components/FontAvatar.vue';
 import { useRoute } from "vue-router";
+import { domainDescriptionKey } from "@/util"
 
 const { domains } = storeToRefs(useAssetsStore())
 const route = useRoute()
 
-const domain = domains.value.find((d: Domain) => d.domain === route.params.domain);
+const domain = domains.value.find((d: Domain) => d.domain.toLowerCase() === route.params.domain);
 if (!domain) {
   window.location.href = '/'
 }
@@ -17,7 +18,7 @@ if (!domain) {
   <div class="asset m-auto flex items-center justify-center md:mb-20 md:mt-20">
     <div class="asset-domain border-4 p-6 border-white rounded-xl">
       <p class="text-3xl md:text-4xl font-black text-white">{{ $t('ui.the_domain_name') }}</p>
-      <p class="text-5xl md:text-8xl xl:text-9xl font-black text-center mt-1 mb-1">
+      <p class="text-5xl md:text-8xl xl:text-9xl font-black text-center mt-1 mb-1 break-all">
         {{ domain!.domain }}
       </p>
       <p class="text-3xl md:text-4xl text-right font-black text-white">{{ $t('ui.owned_by') }}</p>
@@ -28,7 +29,7 @@ if (!domain) {
           <FontAvatar :size="10" :word="domain!.domain[0]" v-else />
         </div>
         <div class="ml-6 text-3xl font-black self-center">
-          {{ $t('description.' + domain!.domain.replaceAll('.', '_')) }}
+          {{ $t(domainDescriptionKey(domain!.domain)) }}
         </div>
       </div>
     </div>
@@ -52,7 +53,7 @@ if (!domain) {
 
 @media (min-width: 1024px) {
   .asset-domain {
-    min-width: 40rem;
+    min-width: 50rem;
   }
 }
 </style>

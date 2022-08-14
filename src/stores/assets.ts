@@ -12,69 +12,69 @@ export const useAssetsStore = defineStore({
   state: () => ({
     domains: [
       {
+        domain: 'Crew.cm',
+      },
+      {
         domain: 'nb2.com',
+      },
+      {
+        domain: 'Git.cm',
       },
       {
         domain: 'nai.ba',
       },
       {
-        domain: 'boringproduction.com',
+        domain: 'BoringProduction.com',
       },
       {
-        domain: 'crew.cm',
+        domain: 'GG0.com',
       },
       {
-        domain: 'gg0.com',
+        domain: 'Gk4.com',
       },
       {
-        domain: 'git.cm',
+        domain: 'Jf4.com',
       },
       {
-        domain: 'gk4.com',
+        domain: 'JG0.com',
       },
       {
-        domain: 'jf4.com',
+        domain: 'Jh4.com',
       },
       {
-        domain: 'jg0.com',
+        domain: 'Jn4.com',
       },
       {
-        domain: 'jh4.com',
+        domain: 'Lajilao.com',
       },
       {
-        domain: 'jn4.com',
+        domain: 'Oh1.com',
       },
       {
-        domain: 'lajilao.com',
+        domain: 'P14yground.com',
       },
       {
-        domain: 'oh1.com',
+        domain: 'Pi4.com',
       },
       {
-        domain: 'p14yground.com',
-      },
-      {
-        domain: 'pi4.com',
-      },
-      {
-        domain: 'qio.ng',
+        domain: 'Qio.ng',
         image: qiong
       },
       {
-        domain: 'thebigpicture.cn'
+        domain: 'TheBigPicture.cn'
       },
       {
-        domain: 'qundao.com',
+        domain: 'Qundao.com',
         image: qundao
       },
       {
-        domain: 'solitud.es',
+        domain: 'Solitud.es',
       },
       {
         domain: '5.nu',
       },
       {
-        domain: 'xzg.com.cn',
+        domain: 'Xzg.com.cn',
       }
     ] as Domain[],
   }),
