@@ -12,7 +12,13 @@ export const useAssetsStore = defineStore({
   state: () => ({
     domains: [
       {
+        domain: 'LifelongLearni.ng',
+      },
+      {
         domain: 'Crew.cm',
+      },
+      {
+        domain: 'BigToysCompany.com',
       },
       {
         domain: 'nb2.com',
@@ -25,6 +31,9 @@ export const useAssetsStore = defineStore({
       },
       {
         domain: 'BoringProduction.com',
+      },
+      {
+        domain: 'naibaHQ.com',
       },
       {
         domain: 'GG0.com',
@@ -64,7 +73,7 @@ export const useAssetsStore = defineStore({
         domain: 'TheBigPicture.cn'
       },
       {
-        domain: 'Qundao.com',
+        domain: 'QunDao.com',
         image: qundao
       },
       {

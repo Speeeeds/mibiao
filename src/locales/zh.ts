@@ -27,5 +27,8 @@ export default {
         "5_nu": '555',
         "xzg_com_cn": '小诸葛',
         "thebigpicture_cn": '格局 🫴',
+        "lifelonglearni_ng": '终身学习',
+        "bigtoyscompany_com": '大玩具',
+        "naibahq_com": '一般的个人项目使用',
     }
 }
