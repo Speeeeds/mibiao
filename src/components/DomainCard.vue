@@ -17,7 +17,7 @@ defineProps<{
     </div>
     <div class="overflow-hidden">
       <p class="domain font-black text-xl break-all">{{ domain.domain }}</p>
-      <p class="description font-thin text-ellipsis overflow-hidden">
+      <p class="description font-thin text-ellipsis overflow-hidden whitespace-nowrap">
         {{ $t(domainDescriptionKey(domain.domain)) }}
       </p>
     </div>

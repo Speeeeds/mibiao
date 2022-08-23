@@ -13,6 +13,7 @@ export const useAssetsStore = defineStore({
     domains: [
       {
         domain: 'LifelongLearni.ng',
+        image: 'https://lifelonglearni.ng/static/cactus/images/logo.png'
       },
       {
         domain: 'Crew.cm',
@@ -28,6 +29,7 @@ export const useAssetsStore = defineStore({
       },
       {
         domain: 'nai.ba',
+        image: 'https://lifelonglearni.ng/static/cactus/images/logo.png'
       },
       {
         domain: 'BoringProduction.com',
@@ -84,7 +86,12 @@ export const useAssetsStore = defineStore({
       },
       {
         domain: 'Xzg.com.cn',
+      },
+      {
+        domain: 'BoringBay.com',
+        image: 'https://boringbay.com/api/favicon/boringbay.com'
       }
     ] as Domain[],
   }),
 });
+
