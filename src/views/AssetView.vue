@@ -12,6 +12,14 @@ const domain = domains.value.find((d: Domain) => d.domain.toLowerCase() === rout
 if (!domain) {
   window.location.href = '/'
 }
+
+function getAvatarSize() {
+  if (window.visualViewport.width < 768) {
+    return 5
+  }
+  return 10
+}
+
 </script>
 
 <template>
@@ -24,9 +32,8 @@ if (!domain) {
       <p class="text-3xl md:text-4xl text-right font-black text-white">{{ $t('ui.owned_by') }}</p>
       <div class="flex border-t-2 border-dashed mt-6 pt-6">
         <div>
-          <img style="width: 10rem;height: 10rem;border-radius: 1rem;" v-if="domain!.image" :src="domain!.image"
-            :alt="domain!.domain" />
-          <FontAvatar :size="10" :word="domain!.domain[0]" v-else />
+          <img class="domain-image" v-if="domain!.image" :src="domain!.image" :alt="domain!.domain" />
+          <FontAvatar :size="getAvatarSize()" :word="domain!.domain[0]" v-else />
         </div>
         <div class="ml-6 text-3xl font-black self-center">
           {{ $t(domainDescriptionKey(domain!.domain)) }}
@@ -45,7 +52,18 @@ if (!domain) {
   min-width: 17rem;
 }
 
+.domain-image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1rem;
+}
+
 @media (min-width: 768px) {
+  .domain-image {
+    width: 10rem;
+    height: 10rem;
+  }
+
   .asset-domain {
     min-width: 20rem;
   }
