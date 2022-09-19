@@ -31,5 +31,6 @@ export default {
         "lifelonglearni_ng": '终身学习',
         "bigtoyscompany_com": '大玩具',
         "naibahq_com": '一般的个人项目使用',
+        "shasheng_com": '杀生',
     }
 }

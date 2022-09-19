@@ -31,5 +31,6 @@ export default {
         "lifelonglearni_ng": 'Lifelong learning',
         "bigtoyscompany_com": 'Big Toys Company',
         "naibahq_com": 'Naiba HQ, for personal projects.',
+        "shasheng_com": 'The Chinese word for "killing" in Buddhism.',
     }
 }

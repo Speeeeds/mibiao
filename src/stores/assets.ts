@@ -1,6 +1,7 @@
 import { defineStore } from "pinia";
 import qiong from '@/assets/qio.ng.gif';
 import qundao from '@/assets/qundao.png';
+import shasheng from '@/assets/shasheng.png';
 
 export interface Domain {
   domain: string;
@@ -32,13 +33,17 @@ export const useAssetsStore = defineStore({
         image: 'https://lifelonglearni.ng/static/cactus/images/logo.png'
       },
       {
+        domain: 'BoringBay.com',
+        image: 'https://boringbay.com/api/favicon/boringbay.com'
+      },
+      {
         domain: 'BoringProduction.com',
       },
       {
         domain: 'naibaHQ.com',
       },
       {
-        domain: 'GG0.com',
+        domain: 'Gg0.com',
       },
       {
         domain: 'Gk4.com',
@@ -47,7 +52,7 @@ export const useAssetsStore = defineStore({
         domain: 'Jf4.com',
       },
       {
-        domain: 'JG0.com',
+        domain: 'Jg0.com',
       },
       {
         domain: 'Jh4.com',
@@ -75,7 +80,7 @@ export const useAssetsStore = defineStore({
         domain: 'TheBigPicture.cn'
       },
       {
-        domain: 'QunDao.com',
+        domain: 'Qundao.com',
         image: qundao
       },
       {
@@ -88,10 +93,9 @@ export const useAssetsStore = defineStore({
         domain: 'Xzg.com.cn',
       },
       {
-        domain: 'BoringBay.com',
-        image: 'https://boringbay.com/api/favicon/boringbay.com'
+        domain: 'Shasheng.com',
+        image: shasheng
       }
     ] as Domain[],
   }),
 });
-
