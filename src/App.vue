@@ -35,7 +35,7 @@ function sendMail() {
     <p class="text-xl md:text-4xl">{{ $t('ui.vision') }}</p>
     <button @click="verified ? sendMail() : verifying = true"
       class="mt-6 text-xl md:text-4xl font-black color-black border-4 p-4 rounded-xl">
-      {{ verified ? 'Email: hi+' + (route.params.domain ?? 'bigtoyscompany.com') + '@nai.ba' : $t('ui.get_in_touch') }}
+      {{ verified ? 'hi+' + (route.params.domain ?? 'bigtoyscompany.com') + '@nai.ba' : $t('ui.get_in_touch') }}
     </button>
     <div class="mt-10 border-t-4 pt-4 border-white">
       <p class="text-xl md:text-2xl">
