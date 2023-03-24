@@ -2,6 +2,7 @@ import { defineStore } from "pinia";
 import qiong from '@/assets/qio.ng.gif';
 import qundao from '@/assets/qundao.png';
 import shasheng from '@/assets/shasheng.png';
+import tusun from '@/assets/logo.png';
 
 export interface Domain {
   domain: string;
@@ -95,6 +96,10 @@ export const useAssetsStore = defineStore({
       {
         domain: 'Shasheng.com',
         image: shasheng
+      },
+      {
+        domain: 'TuSun.org',
+        image: tusun
       }
     ] as Domain[],
   }),

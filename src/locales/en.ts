@@ -32,5 +32,6 @@ export default {
         "bigtoyscompany_com": 'Big Toys Company',
         "naibahq_com": 'Naiba HQ, for personal projects.',
         "shasheng_com": 'The Chinese word for "killing" in Buddhism.',
+        "tusun_org": 'Pallas\'s cat'
     }
 }
