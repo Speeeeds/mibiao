@@ -17,7 +17,7 @@ defineProps<{
 <style scoped>
 div {
     border-radius: 1rem;
-    background-color: black;
+    background-color: #31326F;
     text-align: center;
 }
 </style>
