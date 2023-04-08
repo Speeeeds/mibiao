@@ -48,11 +48,11 @@ function sendMail() {
 
 <style scoped>
 button {
-  background-color: #DB000099;
-  border-color: #E14444;
+  background-color: #31326F;
+  border-color: #1E1F47;
 }
 
 button:hover {
-  background-color: #E14444;
+  background-color: #B2B2D1;
 }
 </style>

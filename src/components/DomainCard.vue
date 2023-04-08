@@ -27,12 +27,13 @@ defineProps<{
 <style scoped>
 .card {
   padding: .5rem;
-  background-color: #DB000099;
+  background-color: #8C8CC1;
   display: flex;
   align-items: center;
   border-radius: 1rem;
   height: 100%;
   width: 100%;
+  opacity: 0.9;
 }
 
 .card>div {
@@ -50,6 +51,6 @@ defineProps<{
 }
 
 .card:hover {
-  background-color: #E1444499;
+  background-color: #B2B2D1;
 }
 </style>

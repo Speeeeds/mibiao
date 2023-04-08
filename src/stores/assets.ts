@@ -94,11 +94,11 @@ export const useAssetsStore = defineStore({
         domain: 'Xzg.com.cn',
       },
       {
-        domain: 'Shasheng.com',
+        domain: 'shasheng.com',
         image: shasheng
       },
       {
-        domain: 'TuSun.org',
+        domain: 'tusun.org',
         image: tusun
       }
     ] as Domain[],
