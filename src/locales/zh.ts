@@ -24,7 +24,6 @@ export default {
         "pi4_com": '皮，数学之美 π',
         "qio_ng": '穷',
         "qundao_com": '群岛',
-        "solitud_es": 'solitudes',
         "5_nu": '555',
         "xzg_com_cn": '小诸葛，小掌柜',
         "thebigpicture_cn": '格局 🫴',

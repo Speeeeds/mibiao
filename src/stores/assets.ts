@@ -85,9 +85,6 @@ export const useAssetsStore = defineStore({
         image: qundao
       },
       {
-        domain: 'Solitud.es',
-      },
-      {
         domain: '5.nu',
       },
       {

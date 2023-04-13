@@ -24,7 +24,6 @@ export default {
         "pi4_com": 'π, the beauty of mathematics.',
         "qio_ng": 'The "poor" in Chinese.',
         "qundao_com": 'The "Islands" in Chinese.',
-        "solitud_es": 'Solitudes',
         "5_nu": '555',
         "xzg_com_cn": 'XZG, generic meaning domain name.',
         "thebigpicture_cn": 'The big picture 🫴',
