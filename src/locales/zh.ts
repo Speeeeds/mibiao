@@ -31,7 +31,7 @@ export default {
         "naibahq_com": '一般的个人项目使用',
         "shasheng_com": '杀生',
         "tusun_org": '兔狲',
-        "yueban.org": '月半',
-        "taubenberg.com": '桃本堡',
+        "yueban_org": '月半',
+        "taubenberg_com": '桃本堡',
     }
 }

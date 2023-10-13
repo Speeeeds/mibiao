@@ -31,7 +31,7 @@ export default {
         "naibahq_com": 'Naiba HQ, for personal projects.',
         "shasheng_com": 'Means "killing" in Buddhism.',
         "tusun_org": 'Pallas\'s cat',
-        "yueban.org": 'Means "cute".',
-        "taubenberg.com": 'Taubenberg',
+        "yueban_org": 'Means "cute".',
+        "taubenberg_com": 'Taubenberg',
     }
 }
