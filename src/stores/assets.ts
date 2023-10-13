@@ -22,6 +22,7 @@ export const useAssetsStore = defineStore({
       },
       {
         domain: 'BigToysCompany.com',
+        image: tusun
       },
       {
         domain: 'nb2.com',
