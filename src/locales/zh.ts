@@ -9,7 +9,6 @@ export default {
         'nb2_com': '奶把儿',
         'boringbay_com': '无聊湾',
         'nai_ba': '奶爸',
-        "boringproduction_com": '无聊制作公司',
         "crew_cm": 'Crew',
         "gg0_com": '哥哥，姑姑',
         "git_cm": 'Git',
@@ -22,7 +21,7 @@ export default {
         "oh1_com": '欧耶',
         "p14yground_com": '游乐场 l33t',
         "pi4_com": '皮，数学之美 π',
-        "qio_ng": '穷',
+        "qio_ng": '穷 🤷',
         "qundao_com": '群岛',
         "5_nu": '555',
         "xzg_com_cn": '小诸葛，小掌柜',
@@ -31,6 +30,8 @@ export default {
         "bigtoyscompany_com": '大玩具',
         "naibahq_com": '一般的个人项目使用',
         "shasheng_com": '杀生',
-        "tusun_org": '兔狲'
+        "tusun_org": '兔狲',
+        "yueban.org": '月半',
+        "taubenberg.com": '桃本堡',
     }
 }

@@ -38,9 +38,6 @@ export const useAssetsStore = defineStore({
         image: 'https://boringbay.com/api/favicon/boringbay.com'
       },
       {
-        domain: 'BoringProduction.com',
-      },
-      {
         domain: 'naibaHQ.com',
       },
       {
@@ -97,6 +94,12 @@ export const useAssetsStore = defineStore({
       {
         domain: 'tusun.org',
         image: tusun
+      },
+      {
+        domain: 'yueban.org',
+      },
+      {
+        domain: 'taubenberg.com',
       }
     ] as Domain[],
   }),
