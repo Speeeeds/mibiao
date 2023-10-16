@@ -33,5 +33,6 @@ export default {
         "tusun_org": 'Pallas\'s cat',
         "yueban_org": 'Means "cute".',
         "taubenberg_com": 'Taubenberg',
+        "fredeburg_com": 'Fredeburg',
     }
 }

@@ -32,6 +32,7 @@ export default {
         "shasheng_com": '杀生',
         "tusun_org": '兔狲',
         "yueban_org": '月半',
-        "taubenberg_com": '桃本堡',
+        "taubenberg_com": '鸽山',
+        "fredeburg_com": '弗雷德堡',
     }
 }

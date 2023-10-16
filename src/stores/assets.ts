@@ -97,10 +97,13 @@ export const useAssetsStore = defineStore({
         image: tusun
       },
       {
-        domain: 'yueban.org',
+        domain: 'YueBan.org',
       },
       {
-        domain: 'taubenberg.com',
+        domain: 'Taubenberg.com',
+      },
+      {
+        domain: 'Fredeburg.com',
       }
     ] as Domain[],
   }),
