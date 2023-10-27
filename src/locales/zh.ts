@@ -34,5 +34,6 @@ export default {
         "yueban_org": '月半',
         "taubenberg_com": '鸽山',
         "fredeburg_com": '弗雷德堡',
+        "xinqi_me": '新奇么💡',
     }
 }

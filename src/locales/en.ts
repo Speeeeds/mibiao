@@ -34,5 +34,6 @@ export default {
         "yueban_org": 'Means "cute".',
         "taubenberg_com": 'Taubenberg',
         "fredeburg_com": 'Fredeburg',
+        "xinqi_me": 'Means "novel"',
     }
 }

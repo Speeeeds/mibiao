@@ -104,6 +104,9 @@ export const useAssetsStore = defineStore({
       },
       {
         domain: 'Fredeburg.com',
+      },
+      {
+        domain: 'XinQi.me'
       }
     ] as Domain[],
   }),
