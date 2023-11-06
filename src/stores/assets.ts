@@ -17,9 +17,7 @@ export const useAssetsStore = defineStore({
         domain: 'LifelongLearni.ng',
         image: 'https://lifelonglearni.ng/static/cactus/images/logo.png'
       },
-      {
-        domain: 'Crew.cm',
-      },
+
       {
         domain: 'BigToysCompany.com',
         image: tusun
@@ -101,6 +99,9 @@ export const useAssetsStore = defineStore({
       },
       {
         domain: 'Taubenberg.com',
+      },
+      {
+        domain: 'Crew.cm',
       },
       {
         domain: 'Fredeburg.com',
