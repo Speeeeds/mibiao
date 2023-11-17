@@ -3,6 +3,8 @@ import qiong from '@/assets/qio.ng.gif';
 import qundao from '@/assets/qundao.png';
 import shasheng from '@/assets/shasheng.png';
 import tusun from '@/assets/logo.png';
+import xzg from '@/assets/xzg.com.cn.png';
+import xinqi from '@/assets/xinqi.me.png';
 
 export interface Domain {
   domain: string;
@@ -14,10 +16,12 @@ export const useAssetsStore = defineStore({
   state: () => ({
     domains: [
       {
+        domain: 'X.com.ms'
+      },
+      {
         domain: 'LifelongLearni.ng',
         image: 'https://lifelonglearni.ng/static/cactus/images/logo.png'
       },
-
       {
         domain: 'BigToysCompany.com',
         image: tusun
@@ -31,13 +35,6 @@ export const useAssetsStore = defineStore({
       {
         domain: 'nai.ba',
         image: 'https://lifelonglearni.ng/static/cactus/images/logo.png'
-      },
-      {
-        domain: 'BoringBay.com',
-        image: 'https://boringbay.com/api/favicon/boringbay.com'
-      },
-      {
-        domain: 'naibaHQ.com',
       },
       {
         domain: 'Gg0.com',
@@ -85,6 +82,7 @@ export const useAssetsStore = defineStore({
       },
       {
         domain: 'Xzg.com.cn',
+        image: xzg
       },
       {
         domain: 'shasheng.com',
@@ -107,7 +105,15 @@ export const useAssetsStore = defineStore({
         domain: 'Fredeburg.com',
       },
       {
-        domain: 'XinQi.me'
+        domain: 'XinQi.me',
+        image: xinqi
+      },
+      {
+        domain: 'BoringBay.com',
+        image: 'https://boringbay.com/api/favicon/boringbay.com'
+      },
+      {
+        domain: 'naibaHQ.com',
       }
     ] as Domain[],
   }),

@@ -35,5 +35,6 @@ export default {
         "taubenberg_com": 'Taubenberg',
         "fredeburg_com": 'Fredeburg',
         "xinqi_me": 'Means "novel"',
+        "x_com_ms": 'X',
     }
 }
