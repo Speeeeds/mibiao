@@ -16,9 +16,6 @@ export const useAssetsStore = defineStore({
   state: () => ({
     domains: [
       {
-        domain: 'X.com.ms'
-      },
-      {
         domain: 'LifelongLearni.ng',
         image: 'https://lifelonglearni.ng/static/cactus/images/logo.png'
       },
@@ -111,6 +108,9 @@ export const useAssetsStore = defineStore({
       {
         domain: 'BoringBay.com',
         image: 'https://boringbay.com/api/favicon/boringbay.com'
+      },
+      {
+        domain: 'X.com.ms'
       },
       {
         domain: 'naibaHQ.com',
