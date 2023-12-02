@@ -35,6 +35,6 @@ export default {
         "taubenberg_com": '鸽山',
         "fredeburg_com": '弗雷德堡',
         "xinqi_me": '新奇么💡',
-        "x_com_ms": 'X',
+        "x_com_ms": '我愿意花费 $55 每年的原因只是因为我喜欢 Elon',
     }
 }

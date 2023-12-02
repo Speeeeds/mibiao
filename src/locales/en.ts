@@ -35,6 +35,6 @@ export default {
         "taubenberg_com": 'Taubenberg',
         "fredeburg_com": 'Fredeburg',
         "xinqi_me": 'Means "novel"',
-        "x_com_ms": 'X',
+        "x_com_ms": 'I am willing to spend $55 per year simply because I like Elon.',
     }
 }
