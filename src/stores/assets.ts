@@ -114,7 +114,11 @@ export const useAssetsStore = defineStore({
       },
       {
         domain: 'naibaHQ.com',
-      }
+      },
+      {
+        domain: 'LifelongLearn.ing',
+        image: 'https://lifelonglearni.ng/static/cactus/images/logo.png'
+      },
     ] as Domain[],
   }),
 });
