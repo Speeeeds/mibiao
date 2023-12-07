@@ -4,7 +4,6 @@ import qundao from '@/assets/qundao.png';
 import shasheng from '@/assets/shasheng.png';
 import tusun from '@/assets/logo.png';
 import xzg from '@/assets/xzg.com.cn.png';
-import xinqi from '@/assets/xinqi.me.png';
 
 export interface Domain {
   domain: string;
@@ -16,18 +15,11 @@ export const useAssetsStore = defineStore({
   state: () => ({
     domains: [
       {
-        domain: 'LifelongLearni.ng',
-        image: 'https://lifelonglearni.ng/static/cactus/images/logo.png'
-      },
-      {
         domain: 'BigToysCompany.com',
         image: tusun
       },
       {
         domain: 'nb2.com',
-      },
-      {
-        domain: 'Git.cm',
       },
       {
         domain: 'nai.ba',
@@ -58,9 +50,6 @@ export const useAssetsStore = defineStore({
         domain: 'Oh1.com',
       },
       {
-        domain: 'P14yground.com',
-      },
-      {
         domain: 'Pi4.com',
       },
       {
@@ -86,34 +75,7 @@ export const useAssetsStore = defineStore({
         image: shasheng
       },
       {
-        domain: 'tusun.org',
-        image: tusun
-      },
-      {
-        domain: 'YueBan.org',
-      },
-      {
-        domain: 'Taubenberg.com',
-      },
-      {
-        domain: 'Crew.cm',
-      },
-      {
         domain: 'Fredeburg.com',
-      },
-      {
-        domain: 'XinQi.me',
-        image: xinqi
-      },
-      {
-        domain: 'BoringBay.com',
-        image: 'https://boringbay.com/api/favicon/boringbay.com'
-      },
-      {
-        domain: 'X.com.ms'
-      },
-      {
-        domain: 'naibaHQ.com',
       },
       {
         domain: 'LifelongLearn.ing',
