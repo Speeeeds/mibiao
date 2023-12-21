@@ -23,7 +23,7 @@ export const useAssetsStore = defineStore({
       },
       {
         domain: 'nai.ba',
-        image: 'https://lifelonglearni.ng/static/cactus/images/logo.png'
+        image: 'https://lifelonglearn.ing/static/cactus/images/logo.png'
       },
       {
         domain: 'Gg0.com',
@@ -79,7 +79,7 @@ export const useAssetsStore = defineStore({
       },
       {
         domain: 'LifelongLearn.ing',
-        image: 'https://lifelonglearni.ng/static/cactus/images/logo.png'
+        image: 'https://lifelonglearn.ing/static/cactus/images/logo.png'
       },
     ] as Domain[],
   }),
