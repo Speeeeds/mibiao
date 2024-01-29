@@ -64,7 +64,7 @@ export const useAssetsStore = defineStore({
         domain: '5.nu',
       },
       {
-        domain: 'pppppppppp.com',
+        domain: 'pPppPppPpp.com',
       },
       {
         domain: 'Xzg.com.cn',
