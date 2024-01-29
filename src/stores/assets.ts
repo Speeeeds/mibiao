@@ -14,10 +14,7 @@ export const useAssetsStore = defineStore({
   id: "assets",
   state: () => ({
     domains: [
-      {
-        domain: 'BigToysCompany.com',
-        image: tusun
-      },
+
       {
         domain: 'nb2.com',
       },
@@ -67,6 +64,9 @@ export const useAssetsStore = defineStore({
         domain: '5.nu',
       },
       {
+        domain: 'pppppppppp.com',
+      },
+      {
         domain: 'Xzg.com.cn',
         image: xzg
       },
@@ -80,6 +80,10 @@ export const useAssetsStore = defineStore({
       {
         domain: 'LifelongLearn.ing',
         image: 'https://lifelonglearn.ing/static/cactus/images/logo.png'
+      },
+      {
+        domain: 'BigToysCompany.com',
+        image: tusun
       },
     ] as Domain[],
   }),

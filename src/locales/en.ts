@@ -26,5 +26,6 @@ export default {
         "bigtoyscompany_com": 'Big Toys Company',
         "shasheng_com": 'Means "killing" in Buddhism.',
         "fredeburg_com": 'Fredeburg',
+        "pppppppppp_com": 'p*10'
     }
 }

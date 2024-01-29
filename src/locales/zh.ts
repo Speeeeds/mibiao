@@ -26,5 +26,6 @@ export default {
         "bigtoyscompany_com": '大玩具',
         "shasheng_com": '杀生',
         "fredeburg_com": '弗雷德堡',
+        "pppppppppp_com": '就十个P'
     }
 }
