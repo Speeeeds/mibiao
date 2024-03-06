@@ -3,7 +3,6 @@ import qiong from '@/assets/qio.ng.gif';
 import qundao from '@/assets/qundao.png';
 import shasheng from '@/assets/shasheng.png';
 import tusun from '@/assets/logo.png';
-import xzg from '@/assets/xzg.com.cn.png';
 
 export interface Domain {
   domain: string;
@@ -54,6 +53,9 @@ export const useAssetsStore = defineStore({
         image: qiong
       },
       {
+        domain: 'Taubenberg.com'
+      },
+      {
         domain: 'TheBigPicture.cn'
       },
       {
@@ -64,11 +66,10 @@ export const useAssetsStore = defineStore({
         domain: '5.nu',
       },
       {
-        domain: 'pPppPppPpp.com',
+        domain: 'pppppppppp.com',
       },
       {
-        domain: 'Xzg.com.cn',
-        image: xzg
+        domain: 'Xzg.com.cn'
       },
       {
         domain: 'shasheng.com',
