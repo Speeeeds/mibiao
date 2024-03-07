@@ -3,6 +3,7 @@ import qiong from '@/assets/qio.ng.gif';
 import qundao from '@/assets/qundao.png';
 import shasheng from '@/assets/shasheng.png';
 import tusun from '@/assets/logo.png';
+import hole from '@/assets/hole.im.png';
 
 export interface Domain {
   domain: string;
@@ -77,6 +78,10 @@ export const useAssetsStore = defineStore({
       },
       {
         domain: 'Fredeburg.com',
+      },
+      {
+        domain: 'hole.im',
+        image: hole
       },
       {
         domain: 'LifelongLearn.ing',
