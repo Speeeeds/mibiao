@@ -40,10 +40,7 @@ function sendMail() {
     <div class="mt-10 border-t-4 pt-4 border-white">
       <p class="text-xl md:text-2xl">
         <img class="inline-block h-10" src="@/assets/logo.png" />
-        2022 &copy; Big toys for big boys. <a title="米表联盟[Domain.Cards]" href="https://domain.cards/"><img
-            style="display: inline; height: 1.3rem;" src="https://domain.cards/api/badge/bigtoyscompany.com" /></a> <a
-          title="无聊湾 🥱 The Boring Bay" href="https://boringbay.com"><img style="display: inline; height: 1.3rem;"
-            src="https://boringbay.com/api/badge/bigtoyscompany.com" /></a>
+        2022 &copy; Big toys for big boys.
       </p>
     </div>
   </footer>
